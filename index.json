@@ -1,0 +1,1522 @@
+{
+    "北京": {
+        "北京": {
+            "name": "北京",
+            "path": "/mapdata/北京.json"
+        }
+    },
+    "天津": {
+        "天津": {
+            "name": "天津",
+            "path": "/mapdata/天津.json"
+        }
+    },
+    "河北": {
+        "石家庄": {
+            "name": "石家庄",
+            "path": "/mapdata/石家庄.json"
+        },
+        "唐山": {
+            "name": "唐山",
+            "path": "/mapdata/唐山.json"
+        },
+        "秦皇岛": {
+            "name": "秦皇岛",
+            "path": "/mapdata/秦皇岛.json"
+        },
+        "邯郸": {
+            "name": "邯郸",
+            "path": "/mapdata/邯郸.json"
+        },
+        "邢台": {
+            "name": "邢台",
+            "path": "/mapdata/邢台.json"
+        },
+        "保定": {
+            "name": "保定",
+            "path": "/mapdata/保定.json"
+        },
+        "张家口": {
+            "name": "张家口",
+            "path": "/mapdata/张家口.json"
+        },
+        "承德": {
+            "name": "承德",
+            "path": "/mapdata/承德.json"
+        },
+        "沧州": {
+            "name": "沧州",
+            "path": "/mapdata/沧州.json"
+        },
+        "廊坊": {
+            "name": "廊坊",
+            "path": "/mapdata/廊坊.json"
+        },
+        "衡水": {
+            "name": "衡水",
+            "path": "/mapdata/衡水.json"
+        }
+    },
+    "山西": {
+        "太原": {
+            "name": "太原",
+            "path": "/mapdata/太原.json"
+        },
+        "大同": {
+            "name": "大同",
+            "path": "/mapdata/大同.json"
+        },
+        "阳泉": {
+            "name": "阳泉",
+            "path": "/mapdata/阳泉.json"
+        },
+        "长治": {
+            "name": "长治",
+            "path": "/mapdata/长治.json"
+        },
+        "晋城": {
+            "name": "晋城",
+            "path": "/mapdata/晋城.json"
+        },
+        "朔州": {
+            "name": "朔州",
+            "path": "/mapdata/朔州.json"
+        },
+        "晋中": {
+            "name": "晋中",
+            "path": "/mapdata/晋中.json"
+        },
+        "运城": {
+            "name": "运城",
+            "path": "/mapdata/运城.json"
+        },
+        "忻州": {
+            "name": "忻州",
+            "path": "/mapdata/忻州.json"
+        },
+        "临汾": {
+            "name": "临汾",
+            "path": "/mapdata/临汾.json"
+        },
+        "吕梁": {
+            "name": "吕梁",
+            "path": "/mapdata/吕梁.json"
+        }
+    },
+    "内蒙古": {
+        "呼和浩特": {
+            "name": "呼和浩特",
+            "path": "/mapdata/呼和浩特.json"
+        },
+        "包头": {
+            "name": "包头",
+            "path": "/mapdata/包头.json"
+        },
+        "乌海": {
+            "name": "乌海",
+            "path": "/mapdata/乌海.json"
+        },
+        "赤峰": {
+            "name": "赤峰",
+            "path": "/mapdata/赤峰.json"
+        },
+        "通辽": {
+            "name": "通辽",
+            "path": "/mapdata/通辽.json"
+        },
+        "鄂尔多斯": {
+            "name": "鄂尔多斯",
+            "path": "/mapdata/鄂尔多斯.json"
+        },
+        "呼伦贝尔": {
+            "name": "呼伦贝尔",
+            "path": "/mapdata/呼伦贝尔.json"
+        },
+        "巴彦淖尔": {
+            "name": "巴彦淖尔",
+            "path": "/mapdata/巴彦淖尔.json"
+        },
+        "乌兰察布": {
+            "name": "乌兰察布",
+            "path": "/mapdata/乌兰察布.json"
+        },
+        "兴安盟": {
+            "name": "兴安盟",
+            "path": "/mapdata/兴安盟.json"
+        },
+        "锡林郭勒": {
+            "name": "锡林郭勒",
+            "path": "/mapdata/锡林郭勒.json"
+        },
+        "阿拉善盟": {
+            "name": "阿拉善盟",
+            "path": "/mapdata/阿拉善盟.json"
+        }
+    },
+    "辽宁": {
+        "沈阳": {
+            "name": "沈阳",
+            "path": "/mapdata/沈阳.json"
+        },
+        "大连": {
+            "name": "大连",
+            "path": "/mapdata/大连.json"
+        },
+        "鞍山": {
+            "name": "鞍山",
+            "path": "/mapdata/鞍山.json"
+        },
+        "抚顺": {
+            "name": "抚顺",
+            "path": "/mapdata/抚顺.json"
+        },
+        "本溪": {
+            "name": "本溪",
+            "path": "/mapdata/本溪.json"
+        },
+        "丹东": {
+            "name": "丹东",
+            "path": "/mapdata/丹东.json"
+        },
+        "锦州": {
+            "name": "锦州",
+            "path": "/mapdata/锦州.json"
+        },
+        "营口": {
+            "name": "营口",
+            "path": "/mapdata/营口.json"
+        },
+        "阜新": {
+            "name": "阜新",
+            "path": "/mapdata/阜新.json"
+        },
+        "辽阳": {
+            "name": "辽阳",
+            "path": "/mapdata/辽阳.json"
+        },
+        "盘锦": {
+            "name": "盘锦",
+            "path": "/mapdata/盘锦.json"
+        },
+        "昌图": {
+            "name": "昌图",
+            "path": "/mapdata/昌图.json"
+        },
+        "朝阳": {
+            "name": "朝阳",
+            "path": "/mapdata/朝阳.json"
+        },
+        "葫芦岛": {
+            "name": "葫芦岛",
+            "path": "/mapdata/葫芦岛.json"
+        }
+    },
+    "吉林": {
+        "长春": {
+            "name": "长春",
+            "path": "/mapdata/长春.json"
+        },
+        "吉林": {
+            "name": "吉林",
+            "path": "/mapdata/吉林.json"
+        },
+        "四平": {
+            "name": "四平",
+            "path": "/mapdata/四平.json"
+        },
+        "辽源": {
+            "name": "辽源",
+            "path": "/mapdata/辽源.json"
+        },
+        "通化": {
+            "name": "通化",
+            "path": "/mapdata/通化.json"
+        },
+        "白山": {
+            "name": "白山",
+            "path": "/mapdata/白山.json"
+        },
+        "松原": {
+            "name": "松原",
+            "path": "/mapdata/松原.json"
+        },
+        "白城": {
+            "name": "白城",
+            "path": "/mapdata/白城.json"
+        },
+        "延边": {
+            "name": "延边",
+            "path": "/mapdata/延边.json"
+        }
+    },
+    "黑龙江": {
+        "哈尔滨": {
+            "name": "哈尔滨",
+            "path": "/mapdata/哈尔滨.json"
+        },
+        "齐齐哈尔": {
+            "name": "齐齐哈尔",
+            "path": "/mapdata/齐齐哈尔.json"
+        },
+        "鸡西": {
+            "name": "鸡西",
+            "path": "/mapdata/鸡西.json"
+        },
+        "鹤岗": {
+            "name": "鹤岗",
+            "path": "/mapdata/鹤岗.json"
+        },
+        "双鸭山": {
+            "name": "双鸭山",
+            "path": "/mapdata/双鸭山.json"
+        },
+        "大庆": {
+            "name": "大庆",
+            "path": "/mapdata/大庆.json"
+        },
+        "伊春": {
+            "name": "伊春",
+            "path": "/mapdata/伊春.json"
+        },
+        "佳木斯": {
+            "name": "佳木斯",
+            "path": "/mapdata/佳木斯.json"
+        },
+        "七台河": {
+            "name": "七台河",
+            "path": "/mapdata/七台河.json"
+        },
+        "牡丹江": {
+            "name": "牡丹江",
+            "path": "/mapdata/牡丹江.json"
+        },
+        "黑河": {
+            "name": "黑河",
+            "path": "/mapdata/黑河.json"
+        },
+        "绥化": {
+            "name": "绥化",
+            "path": "/mapdata/绥化.json"
+        },
+        "大兴安岭": {
+            "name": "大兴安岭",
+            "path": "/mapdata/大兴安岭.json"
+        }
+    },
+    "上海": {
+        "上海": {
+            "name": "上海",
+            "path": "/mapdata/上海.json"
+        }
+    },
+    "江苏": {
+        "南京": {
+            "name": "南京",
+            "path": "/mapdata/南京.json"
+        },
+        "无锡": {
+            "name": "无锡",
+            "path": "/mapdata/无锡.json"
+        },
+        "徐州": {
+            "name": "徐州",
+            "path": "/mapdata/徐州.json"
+        },
+        "常州": {
+            "name": "常州",
+            "path": "/mapdata/常州.json"
+        },
+        "苏州": {
+            "name": "苏州",
+            "path": "/mapdata/苏州.json"
+        },
+        "南通": {
+            "name": "南通",
+            "path": "/mapdata/南通.json"
+        },
+        "连云港": {
+            "name": "连云港",
+            "path": "/mapdata/连云港.json"
+        },
+        "淮安": {
+            "name": "淮安",
+            "path": "/mapdata/淮安.json"
+        },
+        "盐城": {
+            "name": "盐城",
+            "path": "/mapdata/盐城.json"
+        },
+        "扬州": {
+            "name": "扬州",
+            "path": "/mapdata/扬州.json"
+        },
+        "镇江": {
+            "name": "镇江",
+            "path": "/mapdata/镇江.json"
+        },
+        "泰州": {
+            "name": "泰州",
+            "path": "/mapdata/泰州.json"
+        },
+        "宿迁": {
+            "name": "宿迁",
+            "path": "/mapdata/宿迁.json"
+        }
+    },
+    "浙江": {
+        "杭州": {
+            "name": "杭州",
+            "path": "/mapdata/杭州.json"
+        },
+        "宁波": {
+            "name": "宁波",
+            "path": "/mapdata/宁波.json"
+        },
+        "温州": {
+            "name": "温州",
+            "path": "/mapdata/温州.json"
+        },
+        "嘉兴": {
+            "name": "嘉兴",
+            "path": "/mapdata/嘉兴.json"
+        },
+        "湖州": {
+            "name": "湖州",
+            "path": "/mapdata/湖州.json"
+        },
+        "绍兴": {
+            "name": "绍兴",
+            "path": "/mapdata/绍兴.json"
+        },
+        "金华": {
+            "name": "金华",
+            "path": "/mapdata/金华.json"
+        },
+        "衢州": {
+            "name": "衢州",
+            "path": "/mapdata/衢州.json"
+        },
+        "舟山": {
+            "name": "舟山",
+            "path": "/mapdata/舟山.json"
+        },
+        "台州": {
+            "name": "台州",
+            "path": "/mapdata/台州.json"
+        },
+        "丽水": {
+            "name": "丽水",
+            "path": "/mapdata/丽水.json"
+        }
+    },
+    "安徽": {
+        "合肥": {
+            "name": "合肥",
+            "path": "/mapdata/合肥.json"
+        },
+        "芜湖": {
+            "name": "芜湖",
+            "path": "/mapdata/芜湖.json"
+        },
+        "蚌埠": {
+            "name": "蚌埠",
+            "path": "/mapdata/蚌埠.json"
+        },
+        "淮南": {
+            "name": "淮南",
+            "path": "/mapdata/淮南.json"
+        },
+        "马鞍山": {
+            "name": "马鞍山",
+            "path": "/mapdata/马鞍山.json"
+        },
+        "淮北": {
+            "name": "淮北",
+            "path": "/mapdata/淮北.json"
+        },
+        "铜陵": {
+            "name": "铜陵",
+            "path": "/mapdata/铜陵.json"
+        },
+        "安庆": {
+            "name": "安庆",
+            "path": "/mapdata/安庆.json"
+        },
+        "黄山": {
+            "name": "黄山",
+            "path": "/mapdata/黄山.json"
+        },
+        "滁州": {
+            "name": "滁州",
+            "path": "/mapdata/滁州.json"
+        },
+        "阜阳": {
+            "name": "阜阳",
+            "path": "/mapdata/阜阳.json"
+        },
+        "宿州": {
+            "name": "宿州",
+            "path": "/mapdata/宿州.json"
+        },
+        "巢湖": {
+            "name": "巢湖",
+            "path": "/mapdata/巢湖.json"
+        },
+        "六安": {
+            "name": "六安",
+            "path": "/mapdata/六安.json"
+        },
+        "亳州": {
+            "name": "亳州",
+            "path": "/mapdata/亳州.json"
+        },
+        "池州": {
+            "name": "池州",
+            "path": "/mapdata/池州.json"
+        },
+        "宣城": {
+            "name": "宣城",
+            "path": "/mapdata/宣城.json"
+        }
+    },
+    "福建": {
+        "福州": {
+            "name": "福州",
+            "path": "/mapdata/福州.json"
+        },
+        "厦门": {
+            "name": "厦门",
+            "path": "/mapdata/厦门.json"
+        },
+        "莆田": {
+            "name": "莆田",
+            "path": "/mapdata/莆田.json"
+        },
+        "三明": {
+            "name": "三明",
+            "path": "/mapdata/三明.json"
+        },
+        "泉州": {
+            "name": "泉州",
+            "path": "/mapdata/泉州.json"
+        },
+        "漳州": {
+            "name": "漳州",
+            "path": "/mapdata/漳州.json"
+        },
+        "南平": {
+            "name": "南平",
+            "path": "/mapdata/南平.json"
+        },
+        "龙岩": {
+            "name": "龙岩",
+            "path": "/mapdata/龙岩.json"
+        },
+        "宁德": {
+            "name": "宁德",
+            "path": "/mapdata/宁德.json"
+        }
+    },
+    "江西": {
+        "南昌": {
+            "name": "南昌",
+            "path": "/mapdata/南昌.json"
+        },
+        "景德镇": {
+            "name": "景德镇",
+            "path": "/mapdata/景德镇.json"
+        },
+        "萍乡": {
+            "name": "萍乡",
+            "path": "/mapdata/萍乡.json"
+        },
+        "九江": {
+            "name": "九江",
+            "path": "/mapdata/九江.json"
+        },
+        "新余": {
+            "name": "新余",
+            "path": "/mapdata/新余.json"
+        },
+        "鹰潭": {
+            "name": "鹰潭",
+            "path": "/mapdata/鹰潭.json"
+        },
+        "赣州": {
+            "name": "赣州",
+            "path": "/mapdata/赣州.json"
+        },
+        "吉安": {
+            "name": "吉安",
+            "path": "/mapdata/吉安.json"
+        },
+        "宜春": {
+            "name": "宜春",
+            "path": "/mapdata/宜春.json"
+        },
+        "抚州": {
+            "name": "抚州",
+            "path": "/mapdata/抚州.json"
+        },
+        "上饶": {
+            "name": "上饶",
+            "path": "/mapdata/上饶.json"
+        }
+    },
+    "山东": {
+        "济南": {
+            "name": "济南",
+            "path": "/mapdata/济南.json"
+        },
+        "青岛": {
+            "name": "青岛",
+            "path": "/mapdata/青岛.json"
+        },
+        "淄博": {
+            "name": "淄博",
+            "path": "/mapdata/淄博.json"
+        },
+        "枣庄": {
+            "name": "枣庄",
+            "path": "/mapdata/枣庄.json"
+        },
+        "东营": {
+            "name": "东营",
+            "path": "/mapdata/东营.json"
+        },
+        "烟台": {
+            "name": "烟台",
+            "path": "/mapdata/烟台.json"
+        },
+        "潍坊": {
+            "name": "潍坊",
+            "path": "/mapdata/潍坊.json"
+        },
+        "济宁": {
+            "name": "济宁",
+            "path": "/mapdata/济宁.json"
+        },
+        "泰安": {
+            "name": "泰安",
+            "path": "/mapdata/泰安.json"
+        },
+        "威海": {
+            "name": "威海",
+            "path": "/mapdata/威海.json"
+        },
+        "日照": {
+            "name": "日照",
+            "path": "/mapdata/日照.json"
+        },
+        "莱芜": {
+            "name": "莱芜",
+            "path": "/mapdata/莱芜.json"
+        },
+        "临沂": {
+            "name": "临沂",
+            "path": "/mapdata/临沂.json"
+        },
+        "德州": {
+            "name": "德州",
+            "path": "/mapdata/德州.json"
+        },
+        "聊城": {
+            "name": "聊城",
+            "path": "/mapdata/聊城.json"
+        },
+        "滨州": {
+            "name": "滨州",
+            "path": "/mapdata/滨州.json"
+        },
+        "菏泽": {
+            "name": "菏泽",
+            "path": "/mapdata/菏泽.json"
+        }
+    },
+    "河南": {
+        "郑州": {
+            "name": "郑州",
+            "path": "/mapdata/郑州.json"
+        },
+        "开封": {
+            "name": "开封",
+            "path": "/mapdata/开封.json"
+        },
+        "洛阳": {
+            "name": "洛阳",
+            "path": "/mapdata/洛阳.json"
+        },
+        "平顶山": {
+            "name": "平顶山",
+            "path": "/mapdata/平顶山.json"
+        },
+        "安阳": {
+            "name": "安阳",
+            "path": "/mapdata/安阳.json"
+        },
+        "鹤壁": {
+            "name": "鹤壁",
+            "path": "/mapdata/鹤壁.json"
+        },
+        "新乡": {
+            "name": "新乡",
+            "path": "/mapdata/新乡.json"
+        },
+        "焦作": {
+            "name": "焦作",
+            "path": "/mapdata/焦作.json"
+        },
+        "濮阳": {
+            "name": "濮阳",
+            "path": "/mapdata/濮阳.json"
+        },
+        "许昌": {
+            "name": "许昌",
+            "path": "/mapdata/许昌.json"
+        },
+        "漯河": {
+            "name": "漯河",
+            "path": "/mapdata/漯河.json"
+        },
+        "三门峡": {
+            "name": "三门峡",
+            "path": "/mapdata/三门峡.json"
+        },
+        "南阳": {
+            "name": "南阳",
+            "path": "/mapdata/南阳.json"
+        },
+        "商丘": {
+            "name": "商丘",
+            "path": "/mapdata/商丘.json"
+        },
+        "信阳": {
+            "name": "信阳",
+            "path": "/mapdata/信阳.json"
+        },
+        "周口": {
+            "name": "周口",
+            "path": "/mapdata/周口.json"
+        },
+        "驻马店": {
+            "name": "驻马店",
+            "path": "/mapdata/驻马店.json"
+        }
+    },
+    "湖北": {
+        "武汉": {
+            "name": "武汉",
+            "path": "/mapdata/武汉.json"
+        },
+        "黄石": {
+            "name": "黄石",
+            "path": "/mapdata/黄石.json"
+        },
+        "十堰": {
+            "name": "十堰",
+            "path": "/mapdata/十堰.json"
+        },
+        "宜昌": {
+            "name": "宜昌",
+            "path": "/mapdata/宜昌.json"
+        },
+        "襄阳": {
+            "name": "襄阳",
+            "path": "/mapdata/襄阳.json"
+        },
+        "鄂州": {
+            "name": "鄂州",
+            "path": "/mapdata/鄂州.json"
+        },
+        "荆门": {
+            "name": "荆门",
+            "path": "/mapdata/荆门.json"
+        },
+        "孝感": {
+            "name": "孝感",
+            "path": "/mapdata/孝感.json"
+        },
+        "荆州": {
+            "name": "荆州",
+            "path": "/mapdata/荆州.json"
+        },
+        "黄冈": {
+            "name": "黄冈",
+            "path": "/mapdata/黄冈.json"
+        },
+        "咸宁": {
+            "name": "咸宁",
+            "path": "/mapdata/咸宁.json"
+        },
+        "随州": {
+            "name": "随州",
+            "path": "/mapdata/随州.json"
+        },
+        "恩施": {
+            "name": "恩施",
+            "path": "/mapdata/恩施.json"
+        },
+        "仙桃": {
+            "name": "仙桃",
+            "path": "/mapdata/仙桃.json"
+        },
+        "潜江": {
+            "name": "潜江",
+            "path": "/mapdata/潜江.json"
+        },
+        "天门": {
+            "name": "天门",
+            "path": "/mapdata/天门.json"
+        },
+        "神农架": {
+            "name": "神农架",
+            "path": "/mapdata/神农架.json"
+        }
+    },
+    "湖南": {
+        "长沙": {
+            "name": "长沙",
+            "path": "/mapdata/长沙.json"
+        },
+        "株洲": {
+            "name": "株洲",
+            "path": "/mapdata/株洲.json"
+        },
+        "湘潭": {
+            "name": "湘潭",
+            "path": "/mapdata/湘潭.json"
+        },
+        "衡阳": {
+            "name": "衡阳",
+            "path": "/mapdata/衡阳.json"
+        },
+        "邵阳": {
+            "name": "邵阳",
+            "path": "/mapdata/邵阳.json"
+        },
+        "岳阳": {
+            "name": "岳阳",
+            "path": "/mapdata/岳阳.json"
+        },
+        "常德": {
+            "name": "常德",
+            "path": "/mapdata/常德.json"
+        },
+        "张家界": {
+            "name": "张家界",
+            "path": "/mapdata/张家界.json"
+        },
+        "益阳": {
+            "name": "益阳",
+            "path": "/mapdata/益阳.json"
+        },
+        "郴州": {
+            "name": "郴州",
+            "path": "/mapdata/郴州.json"
+        },
+        "永州": {
+            "name": "永州",
+            "path": "/mapdata/永州.json"
+        },
+        "怀化": {
+            "name": "怀化",
+            "path": "/mapdata/怀化.json"
+        },
+        "娄底": {
+            "name": "娄底",
+            "path": "/mapdata/娄底.json"
+        },
+        "湘西": {
+            "name": "湘西",
+            "path": "/mapdata/湘西.json"
+        }
+    },
+    "广东": {
+        "广州": {
+            "name": "广州",
+            "path": "/mapdata/广州.json"
+        },
+        "韶关": {
+            "name": "韶关",
+            "path": "/mapdata/韶关.json"
+        },
+        "深圳": {
+            "name": "深圳",
+            "path": "/mapdata/深圳.json"
+        },
+        "珠海": {
+            "name": "珠海",
+            "path": "/mapdata/珠海.json"
+        },
+        "汕头": {
+            "name": "汕头",
+            "path": "/mapdata/汕头.json"
+        },
+        "佛山": {
+            "name": "佛山",
+            "path": "/mapdata/佛山.json"
+        },
+        "江门": {
+            "name": "江门",
+            "path": "/mapdata/江门.json"
+        },
+        "湛江": {
+            "name": "湛江",
+            "path": "/mapdata/湛江.json"
+        },
+        "茂名": {
+            "name": "茂名",
+            "path": "/mapdata/茂名.json"
+        },
+        "肇庆": {
+            "name": "肇庆",
+            "path": "/mapdata/肇庆.json"
+        },
+        "惠州": {
+            "name": "惠州",
+            "path": "/mapdata/惠州.json"
+        },
+        "梅州": {
+            "name": "梅州",
+            "path": "/mapdata/梅州.json"
+        },
+        "汕尾": {
+            "name": "汕尾",
+            "path": "/mapdata/汕尾.json"
+        },
+        "河源": {
+            "name": "河源",
+            "path": "/mapdata/河源.json"
+        },
+        "阳江": {
+            "name": "阳江",
+            "path": "/mapdata/阳江.json"
+        },
+        "清远": {
+            "name": "清远",
+            "path": "/mapdata/清远.json"
+        },
+        "东莞": {
+            "name": "东莞",
+            "path": "/mapdata/东莞.json"
+        },
+        "中山": {
+            "name": "中山",
+            "path": "/mapdata/中山.json"
+        },
+        "潮州": {
+            "name": "潮州",
+            "path": "/mapdata/潮州.json"
+        },
+        "揭阳": {
+            "name": "揭阳",
+            "path": "/mapdata/揭阳.json"
+        },
+        "云浮": {
+            "name": "云浮",
+            "path": "/mapdata/云浮.json"
+        }
+    },
+    "广西": {
+        "南宁": {
+            "name": "南宁",
+            "path": "/mapdata/南宁.json"
+        },
+        "柳州": {
+            "name": "柳州",
+            "path": "/mapdata/柳州.json"
+        },
+        "桂林": {
+            "name": "桂林",
+            "path": "/mapdata/桂林.json"
+        },
+        "梧州": {
+            "name": "梧州",
+            "path": "/mapdata/梧州.json"
+        },
+        "北海": {
+            "name": "北海",
+            "path": "/mapdata/北海.json"
+        },
+        "防城港": {
+            "name": "防城港",
+            "path": "/mapdata/防城港.json"
+        },
+        "钦州": {
+            "name": "钦州",
+            "path": "/mapdata/钦州.json"
+        },
+        "贵港": {
+            "name": "贵港",
+            "path": "/mapdata/贵港.json"
+        },
+        "玉林": {
+            "name": "玉林",
+            "path": "/mapdata/玉林.json"
+        },
+        "百色": {
+            "name": "百色",
+            "path": "/mapdata/百色.json"
+        },
+        "贺州": {
+            "name": "贺州",
+            "path": "/mapdata/贺州.json"
+        },
+        "河池": {
+            "name": "河池",
+            "path": "/mapdata/河池.json"
+        },
+        "来宾": {
+            "name": "来宾",
+            "path": "/mapdata/来宾.json"
+        },
+        "崇左": {
+            "name": "崇左",
+            "path": "/mapdata/崇左.json"
+        }
+    },
+    "海南": {
+        "海口": {
+            "name": "海口",
+            "path": "/mapdata/海口.json"
+        },
+        "三亚": {
+            "name": "三亚",
+            "path": "/mapdata/三亚.json"
+        },
+        "五指山": {
+            "name": "五指山",
+            "path": "/mapdata/五指山.json"
+        },
+        "琼海": {
+            "name": "琼海",
+            "path": "/mapdata/琼海.json"
+        },
+        "儋州": {
+            "name": "儋州",
+            "path": "/mapdata/儋州.json"
+        },
+        "文昌": {
+            "name": "文昌",
+            "path": "/mapdata/文昌.json"
+        },
+        "万宁": {
+            "name": "万宁",
+            "path": "/mapdata/万宁.json"
+        },
+        "东方": {
+            "name": "东方",
+            "path": "/mapdata/东方.json"
+        },
+        "定安": {
+            "name": "定安",
+            "path": "/mapdata/定安.json"
+        },
+        "屯昌": {
+            "name": "屯昌",
+            "path": "/mapdata/屯昌.json"
+        },
+        "澄迈": {
+            "name": "澄迈",
+            "path": "/mapdata/澄迈.json"
+        },
+        "临高": {
+            "name": "临高",
+            "path": "/mapdata/临高.json"
+        },
+        "白沙": {
+            "name": "白沙",
+            "path": "/mapdata/白沙.json"
+        },
+        "昌江": {
+            "name": "昌江",
+            "path": "/mapdata/昌江.json"
+        },
+        "陵水": {
+            "name": "陵水",
+            "path": "/mapdata/陵水.json"
+        },
+        "西沙群岛": {
+            "name": "西沙群岛",
+            "path": "/mapdata/西沙群岛.json"
+        },
+        "南沙群岛": {
+            "name": "南沙群岛",
+            "path": "/mapdata/南沙群岛.json"
+        }
+    },
+    "重庆": {
+        "重庆": {
+            "name": "重庆",
+            "path": "/mapdata/重庆.json"
+        }
+    },
+    "四川": {
+        "成都": {
+            "name": "成都",
+            "path": "/mapdata/成都.json"
+        },
+        "自贡": {
+            "name": "自贡",
+            "path": "/mapdata/自贡.json"
+        },
+        "攀枝花": {
+            "name": "攀枝花",
+            "path": "/mapdata/攀枝花.json"
+        },
+        "泸州": {
+            "name": "泸州",
+            "path": "/mapdata/泸州.json"
+        },
+        "德阳": {
+            "name": "德阳",
+            "path": "/mapdata/德阳.json"
+        },
+        "绵阳": {
+            "name": "绵阳",
+            "path": "/mapdata/绵阳.json"
+        },
+        "广元": {
+            "name": "广元",
+            "path": "/mapdata/广元.json"
+        },
+        "遂宁": {
+            "name": "遂宁",
+            "path": "/mapdata/遂宁.json"
+        },
+        "内江": {
+            "name": "内江",
+            "path": "/mapdata/内江.json"
+        },
+        "乐山": {
+            "name": "乐山",
+            "path": "/mapdata/乐山.json"
+        },
+        "南充": {
+            "name": "南充",
+            "path": "/mapdata/南充.json"
+        },
+        "眉山": {
+            "name": "眉山",
+            "path": "/mapdata/眉山.json"
+        },
+        "宜宾": {
+            "name": "宜宾",
+            "path": "/mapdata/宜宾.json"
+        },
+        "广安": {
+            "name": "广安",
+            "path": "/mapdata/广安.json"
+        },
+        "达州": {
+            "name": "达州",
+            "path": "/mapdata/达州.json"
+        },
+        "雅安": {
+            "name": "雅安",
+            "path": "/mapdata/雅安.json"
+        },
+        "巴中": {
+            "name": "巴中",
+            "path": "/mapdata/巴中.json"
+        },
+        "资阳": {
+            "name": "资阳",
+            "path": "/mapdata/资阳.json"
+        },
+        "阿坝": {
+            "name": "阿坝",
+            "path": "/mapdata/阿坝.json"
+        },
+        "甘孜": {
+            "name": "甘孜",
+            "path": "/mapdata/甘孜.json"
+        },
+        "凉山": {
+            "name": "凉山",
+            "path": "/mapdata/凉山.json"
+        }
+    },
+    "贵州": {
+        "贵阳": {
+            "name": "贵阳",
+            "path": "/mapdata/贵阳.json"
+        },
+        "六盘水": {
+            "name": "六盘水",
+            "path": "/mapdata/六盘水.json"
+        },
+        "遵义": {
+            "name": "遵义",
+            "path": "/mapdata/遵义.json"
+        },
+        "安顺": {
+            "name": "安顺",
+            "path": "/mapdata/安顺.json"
+        },
+        "铜仁": {
+            "name": "铜仁",
+            "path": "/mapdata/铜仁.json"
+        },
+        "黔西南": {
+            "name": "黔西南",
+            "path": "/mapdata/黔西南.json"
+        },
+        "毕节": {
+            "name": "毕节",
+            "path": "/mapdata/毕节.json"
+        },
+        "黔东南": {
+            "name": "黔东南",
+            "path": "/mapdata/黔东南.json"
+        },
+        "黔南": {
+            "name": "黔南",
+            "path": "/mapdata/黔南.json"
+        }
+    },
+    "云南": {
+        "昆明": {
+            "name": "昆明",
+            "path": "/mapdata/昆明.json"
+        },
+        "曲靖": {
+            "name": "曲靖",
+            "path": "/mapdata/曲靖.json"
+        },
+        "玉溪": {
+            "name": "玉溪",
+            "path": "/mapdata/玉溪.json"
+        },
+        "保山": {
+            "name": "保山",
+            "path": "/mapdata/保山.json"
+        },
+        "昭通": {
+            "name": "昭通",
+            "path": "/mapdata/昭通.json"
+        },
+        "丽江": {
+            "name": "丽江",
+            "path": "/mapdata/丽江.json"
+        },
+        "普洱": {
+            "name": "普洱",
+            "path": "/mapdata/普洱.json"
+        },
+        "临沧": {
+            "name": "临沧",
+            "path": "/mapdata/临沧.json"
+        },
+        "楚雄": {
+            "name": "楚雄",
+            "path": "/mapdata/楚雄.json"
+        },
+        "红河": {
+            "name": "红河",
+            "path": "/mapdata/红河.json"
+        },
+        "文山": {
+            "name": "文山",
+            "path": "/mapdata/文山.json"
+        },
+        "西双版纳": {
+            "name": "西双版纳",
+            "path": "/mapdata/西双版纳.json"
+        },
+        "大理": {
+            "name": "大理",
+            "path": "/mapdata/大理.json"
+        },
+        "德宏": {
+            "name": "德宏",
+            "path": "/mapdata/德宏.json"
+        },
+        "怒江": {
+            "name": "怒江",
+            "path": "/mapdata/怒江.json"
+        },
+        "迪庆": {
+            "name": "迪庆",
+            "path": "/mapdata/迪庆.json"
+        }
+    },
+    "西藏": {
+        "拉萨": {
+            "name": "拉萨",
+            "path": "/mapdata/拉萨.json"
+        },
+        "昌都": {
+            "name": "昌都",
+            "path": "/mapdata/昌都.json"
+        },
+        "山南": {
+            "name": "山南",
+            "path": "/mapdata/山南.json"
+        },
+        "日喀则": {
+            "name": "日喀则",
+            "path": "/mapdata/日喀则.json"
+        },
+        "那曲": {
+            "name": "那曲",
+            "path": "/mapdata/那曲.json"
+        },
+        "阿里": {
+            "name": "阿里",
+            "path": "/mapdata/阿里.json"
+        },
+        "林芝": {
+            "name": "林芝",
+            "path": "/mapdata/林芝.json"
+        }
+    },
+    "陕西": {
+        "西安": {
+            "name": "西安",
+            "path": "/mapdata/西安.json"
+        },
+        "铜川": {
+            "name": "铜川",
+            "path": "/mapdata/铜川.json"
+        },
+        "宝鸡": {
+            "name": "宝鸡",
+            "path": "/mapdata/宝鸡.json"
+        },
+        "咸阳": {
+            "name": "咸阳",
+            "path": "/mapdata/咸阳.json"
+        },
+        "渭南": {
+            "name": "渭南",
+            "path": "/mapdata/渭南.json"
+        },
+        "延安": {
+            "name": "延安",
+            "path": "/mapdata/延安.json"
+        },
+        "汉中": {
+            "name": "汉中",
+            "path": "/mapdata/汉中.json"
+        },
+        "榆林": {
+            "name": "榆林",
+            "path": "/mapdata/榆林.json"
+        },
+        "安康": {
+            "name": "安康",
+            "path": "/mapdata/安康.json"
+        },
+        "商洛": {
+            "name": "商洛",
+            "path": "/mapdata/商洛.json"
+        }
+    },
+    "甘肃": {
+        "兰州": {
+            "name": "兰州",
+            "path": "/mapdata/兰州.json"
+        },
+        "嘉峪关": {
+            "name": "嘉峪关",
+            "path": "/mapdata/嘉峪关.json"
+        },
+        "金昌": {
+            "name": "金昌",
+            "path": "/mapdata/金昌.json"
+        },
+        "白银": {
+            "name": "白银",
+            "path": "/mapdata/白银.json"
+        },
+        "天水": {
+            "name": "天水",
+            "path": "/mapdata/天水.json"
+        },
+        "武威": {
+            "name": "武威",
+            "path": "/mapdata/武威.json"
+        },
+        "张掖": {
+            "name": "张掖",
+            "path": "/mapdata/张掖.json"
+        },
+        "平凉": {
+            "name": "平凉",
+            "path": "/mapdata/平凉.json"
+        },
+        "酒泉": {
+            "name": "酒泉",
+            "path": "/mapdata/酒泉.json"
+        },
+        "庆阳": {
+            "name": "庆阳",
+            "path": "/mapdata/庆阳.json"
+        },
+        "定西": {
+            "name": "定西",
+            "path": "/mapdata/定西.json"
+        },
+        "陇南": {
+            "name": "陇南",
+            "path": "/mapdata/陇南.json"
+        },
+        "临夏": {
+            "name": "临夏",
+            "path": "/mapdata/临夏.json"
+        },
+        "甘南": {
+            "name": "甘南",
+            "path": "/mapdata/甘南.json"
+        }
+    },
+    "青海": {
+        "西宁": {
+            "name": "西宁",
+            "path": "/mapdata/西宁.json"
+        },
+        "海东": {
+            "name": "海东",
+            "path": "/mapdata/海东.json"
+        },
+        "海北": {
+            "name": "海北",
+            "path": "/mapdata/海北.json"
+        },
+        "黄南": {
+            "name": "黄南",
+            "path": "/mapdata/黄南.json"
+        },
+        "海南": {
+            "name": "海南",
+            "path": "/mapdata/海南.json"
+        },
+        "果洛": {
+            "name": "果洛",
+            "path": "/mapdata/果洛.json"
+        },
+        "玉树": {
+            "name": "玉树",
+            "path": "/mapdata/玉树.json"
+        },
+        "海西": {
+            "name": "海西",
+            "path": "/mapdata/海西.json"
+        }
+    },
+    "宁夏": {
+        "银川": {
+            "name": "银川",
+            "path": "/mapdata/银川.json"
+        },
+        "石嘴山": {
+            "name": "石嘴山",
+            "path": "/mapdata/石嘴山.json"
+        },
+        "吴忠": {
+            "name": "吴忠",
+            "path": "/mapdata/吴忠.json"
+        },
+        "固原": {
+            "name": "固原",
+            "path": "/mapdata/固原.json"
+        },
+        "中卫": {
+            "name": "中卫",
+            "path": "/mapdata/中卫.json"
+        }
+    },
+    "新疆": {
+        "乌鲁木齐": {
+            "name": "乌鲁木齐",
+            "path": "/mapdata/乌鲁木齐.json"
+        },
+        "克拉玛依": {
+            "name": "克拉玛依",
+            "path": "/mapdata/克拉玛依.json"
+        },
+        "吐鲁番": {
+            "name": "吐鲁番",
+            "path": "/mapdata/吐鲁番.json"
+        },
+        "哈密": {
+            "name": "哈密",
+            "path": "/mapdata/哈密.json"
+        },
+        "昌吉": {
+            "name": "昌吉",
+            "path": "/mapdata/昌吉.json"
+        },
+        "博州": {
+            "name": "博州",
+            "path": "/mapdata/博州.json"
+        },
+        "巴州": {
+            "name": "巴州",
+            "path": "/mapdata/巴州.json"
+        },
+        "阿克苏": {
+            "name": "阿克苏",
+            "path": "/mapdata/阿克苏.json"
+        },
+        "克州": {
+            "name": "克州",
+            "path": "/mapdata/克州.json"
+        },
+        "喀什": {
+            "name": "喀什",
+            "path": "/mapdata/喀什.json"
+        },
+        "和田": {
+            "name": "和田",
+            "path": "/mapdata/和田.json"
+        },
+        "伊犁": {
+            "name": "伊犁",
+            "path": "/mapdata/伊犁.json"
+        },
+        "塔城": {
+            "name": "塔城",
+            "path": "/mapdata/塔城.json"
+        },
+        "阿勒泰": {
+            "name": "阿勒泰",
+            "path": "/mapdata/阿勒泰.json"
+        },
+        "石河子": {
+            "name": "石河子",
+            "path": "/mapdata/石河子.json"
+        },
+        "五家渠": {
+            "name": "五家渠",
+            "path": "/mapdata/五家渠.json"
+        }
+    },
+    "台湾": {
+        "台北": {
+            "name": "台北",
+            "path": "/mapdata/台北.json"
+        },
+        "台中": {
+            "name": "台中",
+            "path": "/mapdata/台中.json"
+        },
+        "高雄": {
+            "name": "高雄",
+            "path": "/mapdata/高雄.json"
+        }
+    },
+    "香港": {
+        "香港": {
+            "name": "香港",
+            "path": "/mapdata/香港.json"
+        }
+    },
+    "澳门": {
+        "澳门": {
+            "name": "澳门",
+            "path": "/mapdata/澳门.json"
+        }
+    }
+}
