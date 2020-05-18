@@ -22,5 +22,5 @@ for i in range(34):
         }
 
 json_data=json.dumps(infor,indent=4,ensure_ascii=False)
-with io.open('./index.json','w',encoding='utf-8') as fp:
+with io.open('../index.json','w',encoding='utf-8') as fp:
     fp.write(json_data)
