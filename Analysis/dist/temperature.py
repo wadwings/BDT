@@ -8,4 +8,4 @@ def load_tem(filename):
         i["time"] = time.mktime(time.strptime(i["time"],"%Y年%m月%d日"))
         i["weather"] = i["weather"].split("/")
         i["temperature"] = i["temperature"].split("/")
-    
+
