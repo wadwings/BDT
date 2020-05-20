@@ -428,7 +428,7 @@ city = {
 
 
 for i in city.keys():
-    with io.open('../mapdata/{}.json'.format(city[i]),'r',encoding='utf-8') as readf:
+    with io.open('../mapdata_basic/{}.json'.format(city[i]),'r',encoding='utf-8') as readf:
         infor=json.load(readf)
     time=infor[-1]['time']
     date=time[:time.find('日')][-2:]
@@ -451,13 +451,13 @@ for i in city.keys():
             url='http://www.tianqihoubao.com/lishi/'+i+'/month/{}.html'.format(str(int(year+month)+1))
             soup=getsoup(url)
             json_infor=json.dumps(getinfor(city[i],infor,soup,0),indent=4,ensure_ascii=False)
-            with io.open('../mapdata/{}.json'.format(city[i]),'w+',encoding='utf-8') as wf:
+            with io.open('../mapdata_basic/{}.json'.format(city[i]),'w+',encoding='utf-8') as wf:
                 wf.write(json_infor)
             print('{} 已更新'.format(city[i]))
             continue
     else:
         json_infor=json.dumps(getinfor(city[i],infor,soup,date),indent=4,ensure_ascii=False)
-        with io.open('../mapdata/{}.json'.format(city[i]),'w+',encoding='utf-8') as wf:
+        with io.open('../mapdata_basic/{}.json'.format(city[i]),'w+',encoding='utf-8') as wf:
             wf.write(json_infor)
         print('{} 已更新'.format(city[i]))
         continue

@@ -392,7 +392,7 @@ def requestDemo(url,headers):
             f.close()
 
 def listget(name):
-    with io.open('../mapdata/{}.json'.format(city[name]), 'r', encoding='utf-8') as f:
+    with io.open('../mapdata_basic/{}.json'.format(city[name]), 'r', encoding='utf-8') as f:
         str1 = f.read()
         r = json.loads(str1)
     return r
@@ -432,5 +432,5 @@ for i in city.keys():
     #                  else:continue
     r.extend(infor)
     json_data = json.dumps(r, indent=4, ensure_ascii=False)
-    with io.open('../mapdata/{}.json'.format(city[i]), 'w', encoding='utf-8') as fp:
+    with io.open('../mapdata_basic/{}.json'.format(city[i]), 'w', encoding='utf-8') as fp:
       fp.write(json_data)

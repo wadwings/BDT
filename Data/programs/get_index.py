@@ -18,7 +18,8 @@ for i in range(34):
         city=city.string.replace(' ','')
         infor[province][city]={
             'name':city,
-            'path':'/mapdata/{}.json'.format(city)
+            'path1':'/mapdata_basic/{}.json'.format(city),
+            'path2':'/mapdata_aqi/{}aqi.json'.format(city)
         }
 
 json_data=json.dumps(infor,indent=4,ensure_ascii=False)
