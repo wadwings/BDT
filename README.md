@@ -8,7 +8,6 @@
 
 * get_update.py
 * index_i.json
-* index.json
 * mapdata_i
   * 城市.json
 * mapdata_basic
