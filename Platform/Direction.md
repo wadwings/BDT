@@ -146,4 +146,8 @@
 > hadoop job –kill  [job-id]
 > ```
 >
-> 
+### 一些疑惑
+
+- 静态IP设置好后，在物理机命令行中`arp -a` 查询的虚拟机IP为动态，但似乎实际还是作为静态
+- hadoop执行job过程中，有时会出现datanodemaneger挂掉，重启后hadoop又可行，原因未知
+- running过程中可能出现map或reduce卡在某一百分点，似乎是配置问题，在`hadoop/logs` 下研究日志或许能查明问题
