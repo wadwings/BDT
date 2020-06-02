@@ -1,4 +1,4 @@
-# Hadoop平台搭建指导
+# Hadoop平台搭建指导————从入门到入土
 
 1. 安装VMware
 2. 配置虚拟机Ubuntu
@@ -43,7 +43,7 @@
 > ## 4.搭建Hadoop集群
 
 1. 设置网络链接为**Bridged桥接模式**，并设置静态IP
-   - 由于后面集群互联需要各独自联网，这里VMware中虚拟机-设置-网络适配器为**Bridged桥接模式**，并复制物理网络连接状态。
+   - 由于后面集群互联需要各虚拟机独自联网，这里VMware中虚拟机-设置-网络适配器为**Bridged桥接模式**，并复制物理网络连接状态。
    - 编辑-虚拟网络编辑器-更改设置-[^VMnet0]-改为桥接模式
    - 接下来参考<https://blog.csdn.net/maizousidemao/article/details/79116225>
    - 配置完后，重启网络不能更改IP地址的话，试试重启虚拟机`sudo reboot`
@@ -52,7 +52,7 @@
 
 2. 依照<http://dblab.xmu.edu.cn/blog/install-hadoop-cluster/>搭建即可
 
-3. hadoop 中常用命令，又能力也可参照[官方文档](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html)
+3. hadoop 中常用命令，有能力也可参照[官方文档](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html)
 
 > 1. 请求命令帮助
 >
@@ -151,3 +151,6 @@
 - 静态IP设置好后，在物理机命令行中`arp -a` 查询的虚拟机IP为动态，但似乎实际还是作为静态
 - hadoop执行job过程中，有时会出现datanodemaneger挂掉，重启后hadoop又可行，原因未知
 - running过程中可能出现map或reduce卡在某一百分点，似乎是配置问题，在`hadoop/logs` 下研究日志或许能查明问题
+### 下一步
+- 继续探究下某些问题原因
+- 研究Hadoop用途
