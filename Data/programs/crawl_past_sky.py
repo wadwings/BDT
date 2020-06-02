@@ -203,9 +203,6 @@ city={
     "aomen": "澳门"
     }
 
- 
-
-
 year=['2011','2012','2013','2014','2015','2016','2017','2018','2019']
 month=['01','02','03','04','05','06','07','08','09','10','11','12']
 
@@ -213,7 +210,7 @@ ua=UserAgent()
 
 requests_failed=[]
 for i in city.keys():
-    if os.path.getsize('../mapdata/{}.json'.format(city[i]))!=0:
+    if os.path.getsize('../mapdata_basic/{}.json'.format(city[i]))!=0:
         print(city[i])
         continue        #排除已爬取过的城市，程序中断之后方便继续
     infor=[]
@@ -275,7 +272,7 @@ for i in city.keys():
                     count+=1
     
     json_data=json.dumps(infor,indent=4,ensure_ascii=False)
-    with io.open('../mapdata/{}.json'.format(city[i]),'w',encoding='utf-8') as fp:
+    with io.open('../mapdata_basic/{}.json'.format(city[i]),'w',encoding='utf-8') as fp:
         fp.write(json_data)
 
 error_data=json.dumps(requests_failed,indent=2,ensure_ascii=False)  #将报错信息整理成一个文档输出，检查是否有城市的信息未被爬取

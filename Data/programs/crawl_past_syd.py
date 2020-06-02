@@ -243,5 +243,5 @@ for i in city.keys():
                         print(infor)
 #                  else:continue
     json_data = json.dumps(infor, indent=4, ensure_ascii=False)
-    with io.open('../mapdata/{}.json'.format(city[i]), 'w', encoding='utf-8') as fp:
+    with io.open('../mapdata_basic/{}.json'.format(city[i]), 'w', encoding='utf-8') as fp:
         fp.write(json_data)
