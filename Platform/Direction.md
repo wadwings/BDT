@@ -38,7 +38,7 @@
 
 > ## 3.Hadoop安装教程&单机/伪分布式搭建
 
-直接依照<http://dblab.xmu.edu.cn/blog/install-hadoop/>
+由于过程比较复杂，直接依照<http://dblab.xmu.edu.cn/blog/install-hadoop/>
 
 > ## 4.搭建Hadoop集群
 
