@@ -6,7 +6,7 @@ import re
 import pandas as pd
 
 def load_json(filename):
-    with open(filename) as f:
+    with open(filename, encoding = "utf-8") as f:
         t = json.load(f)
         data = {}
         if len(t):
