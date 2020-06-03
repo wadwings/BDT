@@ -10,7 +10,7 @@ def load_json(filename):
         t = json.load(f)
         data = {}
         if len(t):
-            data["city"] = t[0]["city"]
+            data["city"] = t[0]["city"].strip()
             for i in range(0, len(t)):
                 del t[i]["city"]
                 tmp = data[setTime(t[i]["time"])] = {}
@@ -41,7 +41,7 @@ def setTime(str):
 def wind(str):
     arr = [1,2,3,4,5,6]
     windData = re.split('/', str)
-    for i in range(0, 1):
+    for i in range(0, 2):
         tmpData = re.split('风向|-|级|～|风', windData[i])
         if tmpData[0] == "无持续" or tmpData[0] == "" or tmpData[0] == "偏":
             arr[0 + i * 3] = "none"
