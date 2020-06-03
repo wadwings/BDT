@@ -3,7 +3,7 @@ import os
 from basic_csv.basic_csv import load_json
 
 def main():
-    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../Data/index.json")) as f:
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../Data/index.json"), encoding = "utf-8") as f:
         t = json.load(f)
         for k1 in t.keys():
             for k2 in t[k1].keys():
