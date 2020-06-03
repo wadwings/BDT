@@ -10,7 +10,7 @@ def isavilable(n):
     url='http://www.tianqihoubao.com/lishi/'+i+'/month/{}.html'.format(str(n))
     trytimes=0
     while(trytimes<6):
-        try:      
+        try:
             res=requests.get(url=url,headers=headers,timeout=2) #设置超时时间为1s
             if res.status_code==200:
                 break
