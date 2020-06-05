@@ -165,4 +165,4 @@
 
 ### hadoop用途
 
-​	Hadoop 附带了丰富的例子（运行`hadoop jar /usr/local/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-*.jar` 可以看到所有例子），包括 wordcount(计数)、terasort(排序；看了半天看不懂)、join、grep 等（感觉还是不知道能用来干啥）。
+​	Hadoop 附带了丰富的例子（运行`hadoop jar /usr/local/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-*.jar` 可以看到所有例子），包括 wordcount(计数)、terasort(排序)、join、grep 等。
