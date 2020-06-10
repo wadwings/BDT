@@ -8,9 +8,9 @@ import pandas as pd
 def load_json(filename):
     with open(filename, encoding = "utf-8") as f:
         t = json.load(f)
+        city = t[0]["city"].strip()
         data = {}
         if len(t):
-            data["city"] = t[0]["city"].strip()
             for i in range(0, len(t)):
                 del t[i]["city"]
                 tmp = data[setTime(t[i]["time"])] = {}
@@ -27,7 +27,7 @@ def load_json(filename):
                 tmp["wd2"] = wind(t[i]["wind"])[3]
                 tmp["w2w"] = wind(t[i]["wind"])[4]
                 tmp["w2s"] = wind(t[i]["wind"])[5]
-            pd.DataFrame(data).to_csv('{0}{1}.csv'.format(os.path.join(os.path.dirname(os.path.abspath(__file__)),'../../csv/'),data["city"]))
+            pd.DataFrame(data).to_csv('{0}{1}.csv'.format(os.path.join(os.path.dirname(os.path.abspath(__file__)),'../../csv/'),city))
             return data
 
 
@@ -35,7 +35,7 @@ def setTime(str):
     year = re.split('年|月|日', str)[0]
     month = re.split('年|月|日', str)[1]
     day = re.split('年|月|日', str)[2]
-    return year + '.' + month + '.' + day + '.'
+    return year + '.' + month + '.' + day
 
 
 def wind(str):
