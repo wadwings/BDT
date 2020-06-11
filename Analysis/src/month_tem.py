@@ -13,7 +13,7 @@ def _r(ds):
     df = pd.DataFrame(pd.read_csv(path, index_col = 0))
     return df
 
-def draw(city, year, month):
+def draw(city, year, month, mode):
     df = _r(city + '.csv')
     if month < 10:
         sT = str(year) + '.0'  + str(month) + '.01'
@@ -23,7 +23,8 @@ def draw(city, year, month):
         eT = str(year) + '.'  + str(month) + '.' + str(day(year, month))
     df = df.iloc[df.index.get_loc("tH"):df.index.get_loc("tL") + 1, df.columns.get_loc(sT):df.columns.get_loc(eT)].astype(int)
     df.loc['ave_tem'] = df.apply((lambda x: (x/2).sum()))
-    df.plot()
+    df = pd.DataFrame(df.values.T, index=df.columns, columns=df.index)
+    df[mode].plot()
+    plt.savefig("./{0}-{1}-{2}.png".format(city, str(year), str(month)))
+    plt.show()
     df.to_csv("test.csv")
-
-draw("广安", 2018, 10)
