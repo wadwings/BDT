@@ -1,6 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
+import time
+import sys
+
 def _r(ds):
     path = os.path.join(os.path.dirname(os.path.abspath(__file__)),'../csv/') + ds
     df = pd.DataFrame(pd.read_csv(path, index_col = 0))
@@ -21,9 +24,12 @@ def draw(city, year, mode):
     df.loc['ave_tem'] = df.apply((lambda x: (x/2).sum()))
     df = pd.DataFrame(df.values.T, index=df.columns, columns=df.index)
     df[mode].plot()
-    plt.savefig("./{0}-{1}.png".format(city, str(year)))
+    plt.savefig("{2}{0}-{1}.png".format(city, str(year), os.path.join(os.path.dirname(os.path.abspath(__file__)),'../pic/')), dpi=400)
     plt.show()
-    df.to_csv("test.csv")
+    df.to_csv("{0}{1}.csv".format(os.path.join(os.path.dirname(os.path.abspath(__file__)),'../log/'), str(time.time())))
 
-
-draw('广安', 2020, "tH")
+if len(sys.argv) == 4:
+    draw(sys.argv[1], sys.argv[2], sys.argv[3])
+else:
+    print("arguments don't match the function")
+    exit(-1)

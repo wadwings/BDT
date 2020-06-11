@@ -1,6 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
+import time as tm
+import sys
 
 def day(year, month):
     days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
@@ -40,14 +42,17 @@ def draw(city, month, mode):
                 dataset[0].append(str(tmp_df['total'].tH))
                 dataset[1].append(str(tmp_df['total'].tL))
                 dataset[2].append(str(tmp_df['total'].ave_tem))
-                print(dataset)
                 time.append(str(i)+'.'+str(month))
     df = pd.DataFrame(data = dataset, index=['tH','tL','aT'], columns=time).astype(float)
     df = pd.DataFrame(df.values.T, index=df.columns, columns=df.index)
     df[mode].plot()
-    plt.savefig("./{0}-{1}.png".format(city, str(month)))
+    plt.savefig("{2}{0}-{1}.png".format(city, str(month), os.path.join(os.path.dirname(os.path.abspath(__file__)),'../pic/')), dpi=400)
     plt.show()
-    df.to_csv("test.csv")
+    df.to_csv("{0}{1}.csv".format(os.path.join(os.path.dirname(os.path.abspath(__file__)),'../log/'), str(tm.time())))
 
-draw("广安", 9, 'aT')
 
+if len(sys.argv) == 4:
+    draw(sys.argv[1], sys.argv[2], sys.argv[3])
+else:
+    print("arguments don't match the function")
+    exit(-1)
