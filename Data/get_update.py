@@ -1,11 +1,11 @@
-import io
+import io,os
 import requests
 import json
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 
 def isavilable(n):
-    ua=UserAgent()
+    ua=UserAgent(verify_ssl=False)
     headers={'User-Agent':ua.random}
     url='http://www.tianqihoubao.com/lishi/'+i+'/month/{}.html'.format(str(n))
     trytimes=0
@@ -33,7 +33,7 @@ def updated(soup,n):
         return 1
 
 def getsoup(url):
-    ua=UserAgent()
+    ua=UserAgent(verify_ssl=False)
     headers={'User-Agent':ua.random}
     trytimes=0
     while(trytimes<10):
@@ -432,9 +432,9 @@ city = {
     "aomen": "澳门"
     }
 
-
 for i in city.keys():
-    with io.open('./mapdata/{}.json'.format(city[i]),'r',encoding='utf-8') as readf:
+    path=os.path.join(os.path.dirname(os.path.abspath(__file__)),'mapdata_basic/{}.json'.format(city[i]))
+    with io.open(path,'r',encoding='utf-8') as readf:
         infor=json.load(readf)
     if infor==[]:
         continue
@@ -459,13 +459,13 @@ for i in city.keys():
             url='http://www.tianqihoubao.com/lishi/'+i+'/month/{}.html'.format(str(int(year+month)+1))
             soup=getsoup(url)
             json_infor=json.dumps(getinfor(city[i],infor,soup,0),indent=4,ensure_ascii=False)
-            with io.open('./mapdata/{}.json'.format(city[i]),'w+',encoding='utf-8') as wf:
+            with io.open(path,'w+',encoding='utf-8') as wf:
                 wf.write(json_infor)
             print('{} 已更新'.format(city[i]))
             continue
     else:
         json_infor=json.dumps(getinfor(city[i],infor,soup,int(date)),indent=4,ensure_ascii=False)
-        with io.open('./mapdata/{}.json'.format(city[i]),'w+',encoding='utf-8') as wf:
+        with io.open(path,'w+',encoding='utf-8') as wf:
             wf.write(json_infor)
         print('{} 已更新'.format(city[i]))
         continue
