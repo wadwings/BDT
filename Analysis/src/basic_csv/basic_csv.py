@@ -8,9 +8,9 @@ import pandas as pd
 def load_json(filename):
     with open(filename, encoding = "utf-8") as f:
         t = json.load(f)
-        city = t[0]["city"].strip()
-        data = {}
         if len(t):
+            city = t[0]["city"].strip()
+            data = {}
             for i in range(0, len(t)):
                 del t[i]["city"]
                 tmp = data[setTime(t[i]["time"])] = {}
