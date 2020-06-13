@@ -29,8 +29,9 @@ def draw(city, year, month, mode):
     df = df.iloc[df.index.get_loc("tH"):df.index.get_loc("tL") + 1, df.columns.get_loc(sT):df.columns.get_loc(eT)].astype(int)
     df.loc['ave_tem'] = df.apply((lambda x: (x/2).sum()))
     df = pd.DataFrame(df.values.T, index=df.columns, columns=df.index)
-    df[mode].plot()
-    plt.savefig("{3}{0}-{1}-{2}.png".format(city, str(year), str(month), os.path.join(os.path.dirname(os.path.abspath(__file__)),'../pic/')), dpi=400)
+    df[mode].plot(rot=50, grid=True, fontsize=7)
+    plt.savefig("{4}{0}-{1}-{2}-{3}.png".format(city, str(year), str(month), mode, os.path.join(os.path.dirname(os.path.abspath(__file__)),'../pic/')), dpi=400)
+    plt.savefig("{4}{0}-{1}-{2}-{3}.png".format(city, str(year), str(month), mode, os.path.join(os.path.dirname(os.path.abspath(__file__)),'../web/main/pic/')), dpi=400)
     df.to_csv("{0}{1}.csv".format(os.path.join(os.path.dirname(os.path.abspath(__file__)),'../log/'), str(time.time())))
 
 if len(sys.argv) == 5:

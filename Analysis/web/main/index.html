@@ -6,50 +6,65 @@
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body>
+        <div id="bc1"></div>
+        <div id="bc2"></div>
+        <div id="f_bc">
         <form method="POST">
-            <input type="text" name="city" placeholder="请填写城市名称">
+            <input type="text" name="city" id="city" placeholder="请填写城市名称">
             <br>
             <input type="radio" class="radio" name="option" value="month_tem" checked>月气温曲线
             <input type="radio" class="radio" name="option" value="year_tem">年气温曲线
             <input type="radio" class="radio" name="option" value="month_tem_ch">月平均气温曲线
             <div id="form1" class="form" style="visibility:visible;" >
                 <br>
-                <input type="number" name="year" placeholder="年份(20**)">
-                <input type="number" name="month" placeholder="月份">
+                <input type="number" name="year" class="year" placeholder="年份(20**)">
+                <input type="number" name="month" class="month" placeholder="月份">
                 <br>
-                <input type="text" name="mode" list="modelist" placeholder="请选择输出模式">
+                <input type="text" name="mode" class="mode" list="modelist" placeholder="请选择输出模式">
                 <datalist id="modelist">
                     <option>tH</option>
                     <option>tL</option>
                     <option>ave_tem</option>
                 </datalist>
-                <br>
-                <input type="submit">
+                <br><br>
+                <button type="button" class="submit">提交</button>
             </div>
             <div id="form2" class="form" style="visibility:hidden" >
                 <br>
-                <input type="number" name="year" placeholder="年份(20**)">
-                <br>
-                <input type="text" name="mode" list="modelist" placeholder="请选择输出模式">
+                <input type="number" name="year" class="year" placeholder="年份(20**)">
+                <input type="text" name="mode" class="mode" list="modelist" placeholder="请选择输出模式">
                 <datalist id="modelist">
                     <option>tH</option>
                     <option>tL</option>
                     <option>ave_tem</option>
-                </datalist><br>
-                <input type="submit">
+                </datalist><br><br>
+                <button type="button" class="submit">提交</button>
             </div>
             <div id="form3" class="form" style="visibility:hidden" >
                 <br>
-                <input type="number" name="month" placeholder="月份">
-                <input type="text" name="mode" list="modelist" placeholder="请选择输出模式">
+                <input type="number" name="month" class="month" placeholder="月份">
+                <input type="text" name="mode" class="mode" list="modelist" placeholder="请选择输出模式">
                 <datalist id="modelist">
                     <option>tH</option>
                     <option>tL</option>
                     <option>ave_tem</option>
-                </datalist><br>
-                <input type="submit">
+                </datalist><br><br>
+                <button type="button" class="submit">提交</button>
             </div>
         </form>
+        </div>
+        <div id="img_div">
+            <img class="img" alt="./pic/vacant.png"></image>
+        </div>
+        <div id="side_img1">
+            <img class="img" alt="./pic/vacant.png"></image>
+        </div>
+        <div id="side_img2">
+            <img class="img" alt="./pic/vacant.png"></image>
+        </div>
+        <div id="side_img3">
+            <img class="img" alt="./pic/vacant.png"></image>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>

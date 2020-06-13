@@ -13,30 +13,49 @@ http
         // 输出请求的文件名
         console.log("Request for " + pathname + " received.");
         // 从文件系统中读取请求的文件内容
-        fs.readFile(pathname.substr(1), function (err, data) {
-            if (err) {
+        fs.readFile(decodeURI(pathname.substr(1)), function (err, data) {
+            if (err||!data) {
                 console.log(err);
                 // HTTP 状态码: 404 : NOT FOUND
                 // Content Type: text/html
                 res.writeHead(404, {
                     "Content-Type": "text/html"
                 });
-            } else {
-                if(pathname.split(".")[1] == 'css'){
+                    //res.write(data.toString());
+                    res.end();
+            } else if(pathname.split(".")[1] == 'css'){
                     res.writeHead(200, {
                         "Content-Type": "text/css"
                     });
-                }else{
+                    res.write(data.toString());
+                    res.end();
+            }else if(pathname.split(".")[1] == 'png'){
+                    res.writeHead(200, {
+                        "Content-Type": "image/png"
+                    });
+                    let imageFilePath = decodeURI(pathname).substr(1);
+                    let stream = fs.createReadStream( imageFilePath );
+                    let responseData = [];//存储文件流
+                    if (stream) {//判断状态
+                        stream.on( 'data', function( chunk ) {
+                        responseData.push( chunk );
+                        });
+                        stream.on( 'end', function() {
+                        var finalData = Buffer.concat( responseData );
+                        res.write( finalData );
+                        res.end();
+                    });
+                    }
+            }else{
                     // HTTP 状态码: 200 : OK
                     // Content Type: text/html
                     res.writeHead(200, {
                         "Content-Type": "text/html"
                     });
+                    res.write(data.toString());
+                    res.end();
                 }
                 // 响应文件内容
-                res.write(data.toString());
-                res.end();
-            }
             //  发送响应数据s
         });
         req.on("data", function(chunk){
@@ -44,19 +63,18 @@ http
         })
         req.on("end", function(){
             if(body==='')return
-            body = querystring.parse(body);
+            body = querystring.parse(decodeURI(body));
             console.log(body);
-            res.writeHead(200, {'Content-Type': 'text/html; charset=utf8'});
             if(body.city&&body.option&&body.mode)
                 if(body.option === 'month_tem'&&body.year&&body.month){
-                    console.log('python3 "' + path.resolve('./index.js', './../../../src/' + body.option + '.py') + '" ' + body.city + ' ' + body.year[0] + ' ' + body.month[0] + ' ' + body.mode[0])
-                    exec('python3 "' + path.resolve('./index.js', './../../../src/' + body.option + '.py') + '" ' + body.city + ' ' + body.year[0] + ' ' + body.month[0] + ' ' + body.mode[0])
+                    console.log('python3 "' + path.resolve('./index.js', './../../../src/' + body.option + '.py') + '" ' + body.city + ' ' + body.year + ' ' + body.month + ' ' + body.mode)
+                    exec('python3 "' + path.resolve('./index.js', './../../../src/' + body.option + '.py') + '" ' + body.city + ' ' + body.year + ' ' + body.month + ' ' + body.mode)
                 }else if(body.option === 'year_tem'&&body.year){
-                    console.log('python3 "' + path.resolve('./index.js', './../../../src/' + body.option + '.py') + '" ' + body.city + ' ' + body.year[1] + ' ' + body.mode[1])
-                    exec('python3 "' + path.resolve('./index.js', './../../../src/' + body.option + '.py') + '" ' + body.city + ' ' + body.year[1] + ' ' + body.mode[1])
+                    console.log('python3 "' + path.resolve('./index.js', './../../../src/' + body.option + '.py') + '" ' + body.city + ' ' + body.year + ' ' + body.mode)
+                    exec('python3 "' + path.resolve('./index.js', './../../../src/' + body.option + '.py') + '" ' + body.city + ' ' + body.year + ' ' + body.mode)
                 }else if(body.option === 'month_tem_ch'&&body.month){
-                    console.log('python3 "' + path.resolve('./index.js', './../../../src/' + body.option + '.py') + '" ' + body.city + ' ' + body.month[1] + ' ' + body.mode[2])
-                    exec('python3 "' + path.resolve('./index.js', './../../../src/' + body.option + '.py') + '" ' + body.city + ' ' + body.month[1] + ' ' + body.mode[2])
+                    console.log('python3 "' + path.resolve('./index.js', './../../../src/' + body.option + '.py') + '" ' + body.city + ' ' + body.month + ' ' + body.mode)
+                    exec('python3 "' + path.resolve('./index.js', './../../../src/' + body.option + '.py') + '" ' + body.city + ' ' + body.month + ' ' + body.mode)
                 }
         })
     })
