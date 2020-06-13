@@ -10,6 +10,7 @@ def _r(ds):
     return df
 
 def draw(city, year, mode):
+    year = int(year)
     df = _r(city + '.csv')
     sT = str(year) + '.01.01'
     flg = False
@@ -25,7 +26,6 @@ def draw(city, year, mode):
     df = pd.DataFrame(df.values.T, index=df.columns, columns=df.index)
     df[mode].plot()
     plt.savefig("{2}{0}-{1}.png".format(city, str(year), os.path.join(os.path.dirname(os.path.abspath(__file__)),'../pic/')), dpi=400)
-    plt.show()
     df.to_csv("{0}{1}.csv".format(os.path.join(os.path.dirname(os.path.abspath(__file__)),'../log/'), str(time.time())))
 
 if len(sys.argv) == 4:

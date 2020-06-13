@@ -1,3 +1,4 @@
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
@@ -16,6 +17,8 @@ def _r(ds):
     return df
 
 def draw(city, year, month, mode):
+    year = int(year)
+    month = int(month)
     df = _r(city + '.csv')
     if month < 10:
         sT = '{0}.0{1}.01'.format(str(year), str(month))
@@ -28,7 +31,6 @@ def draw(city, year, month, mode):
     df = pd.DataFrame(df.values.T, index=df.columns, columns=df.index)
     df[mode].plot()
     plt.savefig("{3}{0}-{1}-{2}.png".format(city, str(year), str(month), os.path.join(os.path.dirname(os.path.abspath(__file__)),'../pic/')), dpi=400)
-    plt.show()
     df.to_csv("{0}{1}.csv".format(os.path.join(os.path.dirname(os.path.abspath(__file__)),'../log/'), str(time.time())))
 
 if len(sys.argv) == 5:
